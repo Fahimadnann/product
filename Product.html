@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Product</title>
+<style>
+*{
+ margin: 0; 
+padding: 0;
+}
+ header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('product-stock-illustration_csp28697982.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 40px 100px;
+}
+ul li{
+    display: inline-block;
+}
+ ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.3s ease;
+}
+ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+ }
+ .active{
+     background-color: #fff;
+     color: black;
+ }
+.title{
+    font-family: verdana;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 80px;
+}
+.button{
+    font-family: verdana;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+</style>
+
+
+</head>
+<body>
+    <header>
+        <div>
+            <ul>
+                <li style="margin: 3px; font-family: verdana; font-size: 20px;"> <a href="#">Home</a> </li>
+                <li style="margin: 3px; font-family: verdana; font-size: 20px;"> <a class="active" href="#">Product</a></li>
+                <li style="margin: 3px; font-family: verdana; font-size: 20px;"> <a href="#">Gallery</a> </li>
+                <li style="margin: 3px; font-family: verdana; font-size: 20px;"> <a href="#">About</a> </li>
+                <li style="margin: 3px; font-family: verdana; font-size: 20px;"> <a href="#">Contact</a> </li>
+            </ul>
+        </div>
+
+    </header>
+</body>
+</html>
